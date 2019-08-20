@@ -38,7 +38,7 @@ const CheckBoxComponent = ({ onChange, checked }) => {
   const labelValue = 'Yes, I\'d like to recieve the very occasional email with information on new services and discounts';
 
   const handleChange = () => {
-    onChange(props.checked);
+    onChange(checked);
   }
 
   return (
