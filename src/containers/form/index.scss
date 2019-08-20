@@ -1,0 +1,45 @@
+.app__form {
+  margin: 110px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: center;
+  width: 427px;
+  margin-top: 110px;
+  border-radius: 4px;
+  border: solid 1px #ebedf8;
+  background-color: #ffffff;
+
+  &-title_h1 {
+    font-size: 36px;
+    color: #454545;
+    letter-spacing: 0.25px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+  }
+
+  &-description_h2 {
+    font-size: 14px;
+    color: #9398a2;
+    width: 356px;
+    letter-spacing: 0.2px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+  }
+
+  &-description_link {
+    color: #0a7abf;
+
+    &:hover {
+      text-decoration: underline;
+      cursor: pointer;
+    }
+  }
+}

@@ -3,9 +3,9 @@ const path = require('path')
 module.exports = {
   alias: {
     '@base': path.resolve(__dirname, '../'),
-    '@scripts': path.resolve(__dirname, '../scripts'),
+    '@src': path.resolve(__dirname, '../src'),
     '@styles': path.resolve(__dirname, '../styles'),
   },
   extensions: ['.js', '.jsx', '.json'],
-  modules: ['node_modules', 'scripts', path.resolve(__dirname, '../scripts')],
+  // modules: ['node_modules', 'src', path.resolve(__dirname, '../src')],
 }

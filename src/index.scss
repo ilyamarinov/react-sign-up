@@ -1,0 +1,19 @@
+@import "./node_modules/normalize-scss/sass/normalize/_import-now.scss";
+
+a:focus,
+input:focus,
+textarea:focus,
+button:focus {
+ outline: none;
+}
+
+body {
+  margin: 0 auto;
+  background-color: #fafbfc;
+  width: 100%;
+}
+
+#root {
+  text-align: center;
+  width: 100%;
+}

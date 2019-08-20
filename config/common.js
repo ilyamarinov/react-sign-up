@@ -13,8 +13,8 @@ const config = {
   entry: {
     app: [
       'babel-polyfill',
-      './scripts/index.js',
-      './styles/main.scss'
+      './src/index.js',
+      './src/index.scss'
     ]
   },
 

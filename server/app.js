@@ -16,7 +16,7 @@ server.post('/register', [
   check('name')
     .isLength({min: 3, max: 30}).withMessage('Name must be more than 3 characters and less than 30')
     .matches('^[a-z ,.\'-]+$', 'i'),
-  check('dialCode').matches('^\\+?\\d{1,4}$'),
+  // check('dialCode').matches('^\\+?\\d{1,4}$'),
   check('email').isEmail(),
   check('country').isIn(['UK', 'US']),
   check('password')
